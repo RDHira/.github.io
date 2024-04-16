@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Portfolio</title>
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./dist/css/style.css">
+    <!-- icons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</head>
+
+<body>
+
+    <!-- intro -->
+    <div class="container pt-5">
+        <div class="row align-items-center mt-5 pt-5">
+            <div class="col-md-6 text-white">
+                <div class="bio text-capitalize">
+                    <span class="fs-3">Hello, I am</span>
+                    <h3 class="fs-1">Hiralal Mandal</h3>
+                    <p class="fs-4">and I have good knowledge in 
+                        <span class="typed1"></span>
+                        <span class="typed2"></span>
+                    </p>
+                    <div class="MyIntroContent">
+                        <p>
+                            Need a cool website that makes your business shine online? I'm your guy! I'll use my skills
+                            in coding and design to make a website that looks awesome, works great, and pops up easily
+                            on Google. Whether you want something simple or super fancy, I've got you covered!
+                        </p>
+                    </div>
+                </div>
+                <div class="social">
+                    <ul class="d-flex list-unstyled gap-4">
+                        <li><a href="https://www.facebook.com/hiralal.mandal.714" target="_blank"><ion-icon
+                                    name="logo-facebook"></ion-icon></a>
+                        </li>
+                        <li><a href="https://github.com/RDHira" target="_blank"><ion-icon
+                                    name="logo-github"></ion-icon></a></li>
+                        <li><a href="https://www.linkedin.com/in/hiralal-mandal-6b07591a2/" target="_blank"><ion-icon
+                                    name="logo-linkedin"></ion-icon></a></li>
+                    </ul>
+                </div>
+                <div class="mt-4">
+                    <a href="./src/about.html" class="btn rounded-0 btn-outline-info text-white fw-bold">About Me! </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="profile">
+                    <img src="./dist/img/profile1.png" class="w-100" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../dist/typed.js"></script>
+    <script>
+        var typed = new Typed(".typed1", {
+            strings: [
+                "HTML, CSS",
+                "Bootstrap, JavaScript",
+                "React.Js, React Bootstrap",
+                "Figma and Github."
+            ],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        });
+    </script>
+    <script src="../dist/js/bootstrap.min.js"></script>
+    <script src="../dist/js/script.js"></script>
+</body>
+
+</html>
