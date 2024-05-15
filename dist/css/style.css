@@ -37,6 +37,10 @@ body {
 .profile {
     border-bottom: 5px solid #0dcaf0;
     position: relative;
+    
+}
+.profile img{
+    height: 505px;
 }
 
 /*  */
